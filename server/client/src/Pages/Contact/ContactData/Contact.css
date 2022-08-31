@@ -1,0 +1,18 @@
+
+
+.map{
+    border :10px solid rgb(7, 36, 98);
+}
+.column{
+    background-color: rgb(224, 208, 180);
+    
+}
+.content{
+    color:rgb(122, 76, 74);
+    margin: 10px auto;
+    font-weight: 600;
+}
+
+.ContactData{
+    font-weight: 500;
+}

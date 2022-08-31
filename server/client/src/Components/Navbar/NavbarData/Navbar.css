@@ -1,0 +1,57 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.navbar-nav .link {
+    font-size: medium;
+    font-weight: 500;
+    color: black;
+    opacity: 1;
+}
+.navbar li:hover .link{
+    color: rgb(40, 59, 99);
+}
+
+.navbar-nav  li>.active {
+    color: aliceblue !important;
+    background-color: rgb(7, 36, 98);
+    border-radius: 5%;
+    transition: 200ms ease;
+    
+}
+.navbar {
+    background-color: rgba(255, 224, 167, 0.7);
+}
+
+.dropdown-menu {
+    border: none;
+    padding: auto;
+    background-color: rgba(255, 224, 167, 0.7);
+    color: black;
+}
+.navbar-brand img{
+    border-radius:50%;
+    height:40px;
+    width:40px;
+    margin-left:40px;
+    box-shadow:-3px -2px 2px black;
+}
+.navbar-brand span{
+    color:rgb(40, 59, 99);
+    margin-left: 10px;
+    font-weight:bolder;
+    font-style: inherit;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow:5px -10px 30px  rgb(16, 29, 56);
+}
+.navbar-brand span p{
+   font-size: 12px;
+   margin-left: 110px;
+   margin-top: -12px;
+   margin-bottom: -3px;
+}
+@media (max-width:300px) {
+   .navbar-brand .link{
+   font-weight: 100;
+   }    
+}

@@ -1,0 +1,121 @@
+/* for carousel images */
+.carousel-item img {
+    height: 500px;
+
+}
+/* page logo */
+.Logocol img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+/* vision mission objective */
+.vmc,
+ul li {
+    font-weight: 600;
+    color: rgb(145, 83, 1);
+}
+
+/* Modal css */
+.Modal {
+    padding:auto;
+    width: 300px;
+    z-index: 1;
+    background: rgb(72, 157, 153);
+    background: linear-gradient(0deg, rgba(72, 157, 153, 1) 8%, rgba(201, 187, 224, 1) 56%, rgba(125, 205, 213, 1) 86%, rgba(40, 186, 150, 1) 100%, rgba(45, 67, 99, 1) 100%);
+    margin-top: -34%;
+    border-radius: 3%;
+    box-shadow: 2px 2px 2px linear-gradient(0deg, rgba(72, 157, 153, 1) 8%, rgba(201, 187, 224, 1) 56%, rgba(125, 205, 213, 1) 86%, rgba(40, 186, 150, 1) 100%, rgba(45, 67, 99, 1) 100%);
+    ;
+    position: fixed;
+    animation: modalAnimation;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0.75, 0.885, 0.32, 1.75);
+
+
+}
+
+.Modal h6,
+h5 {
+    font-weight: bolder;
+}
+
+@keyframes modalAnimation {
+    0% {
+        transform: translateY(50vh);
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+}
+
+/* for different point */
+@media (max-width:1200px) {
+    .carousel-item img {
+        height: 450px;
+    }
+
+    .Logocol img {
+        width: 450px;
+        height: 450px;
+
+    }
+
+}
+
+@media (max-width:800px) {
+    .carousel-item img {
+        height: 400px;
+    }
+
+    .Logocol img {
+        width: 400px;
+        height: 400px;
+
+    }
+
+}
+
+@media (max-width:500px) {
+    .carousel-item img {
+        height: 300px;
+    }
+
+    .Logocol img {
+        width: 350px;
+        height: 350px;
+
+    }
+
+}
+
+@media (max-width:350px) {
+    .carousel-item img {
+        height: 250px;
+    }
+
+    .Logocol img {
+        width: 300px;
+        height: 300px;
+
+    }
+    .Modal {
+        width:260px
+    }
+
+}
+@media (max-width:350px) {
+   
+
+    .Logocol img {
+        width: 260px;
+        height: 260px;
+
+    }
+    
+
+}
