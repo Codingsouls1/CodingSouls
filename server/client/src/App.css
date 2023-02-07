@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(201,187,224);
+background: linear-gradient(0deg, rgba(201,187,224,1) 39%, rgba(105,210,210,1) 82%);
+    height: 100vh;
+    position: relative;
+}
+/* main div of application */
+.main {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ /* for page defined heading  h6*/
+.About {
+    color: #2d4363;
+    font-weight: bold;
+}
+ /* for page defined heading  h2*/
+.HeadingPageName {
+    color: rgb(45, 67, 99);
+    font-weight: bolder;
+}
+ /* for top logo of pages except home page */
+.Event img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+/* for team page icons */
+.icon:hover{
+    background-color: rgb(45, 67, 99);
+    border-radius: 50%;
+    color: aliceblue;
+    transition: 200ms ease-in-out;
+}
+.popupimg{
+    height:180px; width:250px;
+}
+.cross{
+    margin-left:260px
+}
+@media (max-width:350px) {
+    .popupimg{
+        height:150px; width:200px;
+    }
+    .cross{
+        margin-left:220px
+    }
+}
